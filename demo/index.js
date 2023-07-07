@@ -27,7 +27,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 // stats.showPanel( 1 ); // 0: fps, 1: ms, 2: mb, 3+: custom
 // document.body.appendChild( stats.dom );
 
-loader.load('/assets/3d/burger_low_poly.glb', function ( gltf ) {
+loader.load('/demo/burger_low_poly.glb', function ( gltf ) {
 	
     			// stats.begin();
 				scene.add( gltf.scene );
